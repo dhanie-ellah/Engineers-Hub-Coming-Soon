@@ -4,8 +4,8 @@ import Envelope from '../assets/envelope.png'
 
 const LandingSearch = () => {  
   return (
-    <div className='p-10 w-4/5 m-auto my-12 flex justify-between items-center md:flex-col-reverse md:w-full md:p-5 md:gap-2'>
-      <div className='w-6/12 flex flex-col gap-3 px-12 py-5 md:w-full md:px-0'>
+    <div className='p-10 w-4/5 m-auto my-12 flex justify-between items-center lg:flex-col-reverse lg:w-full lg:p-5 lg:gap-2'>
+      <div className='w-6/12 flex flex-col gap-3 px-12 py-5 lg:w-full lg:px-0'>
         <h1 className='text-blue text-2xl font-semibold'>The Engineers Community</h1>
         <h1 className='text-orange text-5xl font-bold'>Coming Soon</h1>
         <p className='font-semi-bold text-dark-grey text-sm'>Be the first to hear about latest updates, opportunities and freebies from Engineers Hub when you subscribe to our News letter</p>
@@ -18,7 +18,7 @@ const LandingSearch = () => {
         </form>
       </div>
 
-      <div className='w-4/12 relative flex items-center justify-center md:w-full'>
+      <div className='w-4/12 relative flex items-center justify-center lg:w-full'>
         <img className='w-full flex items-center justify-center' src={landingSearch} alt="" />
       </div>
     </div>

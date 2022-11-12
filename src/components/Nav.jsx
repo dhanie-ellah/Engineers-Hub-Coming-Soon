@@ -31,7 +31,7 @@ const Nav = () => {
       <FaBars className='hidden lg:block z-10 text-xl text-orange' onClick={() => setShowNav(!showNav)}/>
       <FaWindowClose className='hidden z-10' onClick={() => setShowNav(showNav)}/>
 
-      {showModal ? (<Modal />) : null}
+      {showModal ? (<Modal setShowModal={setShowModal} />) : null}
       {/* {showModal && <Modal setOpenModal={setShowModal} />} */}
     </div>
   )
