@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "black-opacity": "var(--black-opacity)",
         "dark-grey": "var(--dark-grey)",
         "blue": "var(--blue)",
         "grey": "var(--grey)",
