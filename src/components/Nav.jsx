@@ -69,8 +69,8 @@ const Nav = () => {
           </a>
         </div>
         {/* MOBILE LINKS */}
-        <div className="hidden lg:block">
-          <div className={'hidden lg:absolute lg:top-0 lg:flex-col lg:justify-center lg:items-center lg:h-full lg:bg-blue lg:w-full lg:left-0 lg:gap-4 lg:text-center lg:z-10 ${showNav ? "flex" : "hidden"}'}>
+        <div className="">
+          <div className={`${showNav ? 'flex' : 'hidden'} lg:absolute lg:top-0 lg:flex-col lg:justify-center lg:items-center lg:h-full lg:bg-blue lg:w-full lg:left-0 lg:gap-4 lg:text-center lg:z-10`}>
             <div className="flex gap-10 lg:flex-col lg:gap-4">
               <a
                 onClick={() => {
@@ -124,7 +124,7 @@ const Nav = () => {
         </div>
         <FontAwesomeIcon
           icon={showNav ? faClose : faBars}
-          size="lg"
+          size="xl"
           className="text-orange hidden lg:block z-20"
           onClick={() => {
             setShowNav(!showNav);
