@@ -7,7 +7,7 @@ import Envelope from '../assets/envelope.png'
 
 const LandingSearch = () => {  
   return (
-    <div className='p-10 w-4/5 m-auto my-12 flex justify-between lg:flex-col-reverse lg:w-full lg:p-5 lg:gap-2'>
+    <div className='p-10 w-4/5 m-auto my-12 flex justify-between items-center lg:flex-col-reverse lg:w-full lg:p-5 lg:gap-2'>
       <div className='w-6/12 flex flex-col gap-3 px-12 py-5 lg:w-full lg:px-0 '>
         <h1 className='text-blue text-2xl font-semibold'>The Engineers Community</h1>
         <h1 className='text-orange text-5xl font-bold'>Coming Soon</h1>
