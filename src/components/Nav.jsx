@@ -69,7 +69,7 @@ const Nav = () => {
           </a>
         </div>
         {/* MOBILE LINKS */}
-        <div className="">
+        <div className="hidden lg:flex">
           <div className={`${showNav ? 'flex' : 'hidden'} lg:absolute lg:top-0 lg:flex-col lg:justify-center lg:items-center lg:h-full lg:bg-blue lg:w-full lg:left-0 lg:gap-4 lg:text-center lg:z-10`}>
             <div className="flex gap-10 lg:flex-col lg:gap-4">
               <a
