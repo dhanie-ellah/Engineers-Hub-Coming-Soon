@@ -9,7 +9,7 @@ const Modal = ({setShowModal}) => {
       onClick={() => setShowModal(false)}
     >
       <div
-        className="w-4/12 bg-blue rounded-lg p-10 lg:p-5 flex flex-col gap-5 md:w-10/12 lg:w-6/12 lg:rounded-3xl"
+        className="w-4/12 bg-blue rounded-lg p-10 lg:p-5 flex flex-col gap-5 md:w-11/12 lg:py-6 lg:w-6/12 lg:rounded-3xl"
         onClick={(e) => e.stopPropagation()}
       >
         <img

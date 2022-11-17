@@ -8,14 +8,14 @@ import Envelope from '../assets/envelope.png'
 const LandingSearch = () => {  
   return (
     <div className="p-10 w-4/5 m-auto my-12 flex justify-between items-center lg:flex-col-reverse lg:w-full lg:p-5 lg:gap-1 lg:my-3">
-      <div className="w-6/12 flex flex-col gap-3 px-12 py-5 lg:w-full lg:px-0 lg:gap-1.5">
+      <div className="w-6/12 flex flex-col gap-1.5 px-12 py-5 lg:w-full lg:px-0 lg:gap-1.5">
         <h1 className="text-blue text-2xl lg:text-3xl md:text-xl font-semibold">
           The Engineers Community
         </h1>
-        <h1 className="text-orange text-5xl lg:text-5xl md:text-4xl font-bold">
+        <h1 className="text-orange text-4xl lg:text-5xl md:text-4xl font-bold">
           Coming Soon
         </h1>
-        <p className="font-semi-bold text-dark-grey lg:text-lg md:text-sm">
+        <p className="font-semi-bold text-dark-grey text-[12px] lg:text-lg md:text-sm">
           Be the first to hear about latest updates, opportunities and freebies
           from Engineers Hub when you subscribe to our News letter
         </p>

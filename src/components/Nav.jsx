@@ -13,7 +13,7 @@ const Nav = () => {
   return (
     <>
       <nav className="flex bg-blue justify-between px-28 py-5 items-center text-xs lg:px-8 lg:py-3 lg:text-base">
-        <div className="w-[15%] lg:w-[20%] z-20">
+        <div className="w-[15%] lg:w-[30%] z-20">
           <Link to="/" className="">
             <img src={logo} alt="Engineer's hub logo" className="w-full" />
           </Link>
