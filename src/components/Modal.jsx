@@ -9,7 +9,7 @@ const Modal = ({setShowModal}) => {
       onClick={() => setShowModal(false)}
     >
       <div
-        className="w-4/12 bg-blue rounded-lg p-10 flex flex-col gap-5 md:w-11/12 lg:w-9/12 lg:rounded-3xl"
+        className="w-4/12 bg-blue rounded-lg p-10 lg:p-5 flex flex-col gap-5 md:w-10/12 lg:w-6/12 lg:rounded-3xl"
         onClick={(e) => e.stopPropagation()}
       >
         <img
@@ -26,7 +26,7 @@ const Modal = ({setShowModal}) => {
           from Engineers Hub when you subscribe to our News letter
         </p>
         <form className="flex gap-4 bg-white rounded-full items-center justify-between">
-          <div className="relative w-3/4">
+          <div className="relative w-3/4 lg:w-8/12">
             <img
               src={Envelope}
               alt=""
@@ -39,7 +39,7 @@ const Modal = ({setShowModal}) => {
             />
           </div>
           <input
-            className="bg-orange text-xs rounded-full text-center py-2 cursor-pointer rounded-l-none w-1/4"
+            className="bg-orange text-xs rounded-full text-center py-2 cursor-pointer rounded-l-none w-1/4 lg:w-4/12"
             type="submit"
             value="Subscribe"
           />

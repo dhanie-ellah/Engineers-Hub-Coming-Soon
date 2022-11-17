@@ -12,8 +12,8 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="flex bg-blue justify-between px-28 py-5 items-center text-xs lg:px-8 lg:text-base">
-        <div className="w-[15%] lg:w-2/5 z-20">
+      <nav className="flex bg-blue justify-between px-28 py-5 items-center text-xs lg:px-8 lg:py-3 lg:text-base">
+        <div className="w-[15%] lg:w-[20%] z-20">
           <Link to="/" className="">
             <img src={logo} alt="Engineer's hub logo" className="w-full" />
           </Link>
@@ -70,8 +70,8 @@ const Nav = () => {
         </div>
         {/* MOBILE LINKS */}
         <div className="hidden lg:flex">
-          <div className={`${showNav ? 'flex' : 'hidden'} lg:absolute lg:top-0 lg:flex-col lg:justify-center lg:items-center lg:h-full lg:bg-blue lg:w-full lg:left-0 lg:gap-4 lg:text-center lg:z-10`}>
-            <div className="flex gap-10 lg:flex-col lg:gap-4">
+          <div className={`${showNav ? 'flex' : 'hidden'} lg:absolute lg:top-0 lg:flex-col lg:justify-center lg:items-center lg:h-full lg:bg-blue lg:w-full lg:left-0 lg:gap-10 md:gap-2.5 lg:text-center lg:z-10 lg:text-3xl md:text-xs`}>
+            <div className="flex gap-10 lg:flex-col lg:gap-10 md:gap-2.5">
               <a
                 onClick={() => {
                   setShowModal(!showModal);
@@ -100,13 +100,13 @@ const Nav = () => {
                 Companies
               </a>
             </div>
-            <div className="flex items-center gap-5 lg:flex-col lg:gap-4">
+            <div className="flex items-center gap-5 lg:flex-col lg:gap-10 md:gap-2.5">
               <a
                 onClick={() => {
                   setShowModal(!showModal);
                   setShowNav(!showNav);
                 }}
-                className="btn border border-orange"
+                className="btn border border-orange py-4 px-10 md:py-2 md:px-5"
               >
                 Register
               </a>
@@ -115,7 +115,7 @@ const Nav = () => {
                   setShowModal(!showModal);
                   setShowNav(!showNav);
                 }}
-                className="bg-orange btn border border-orange"
+                className="bg-orange btn border border-orange py-4 px-10 md:py-2 md:px-5"
               >
                 Login
               </a>
