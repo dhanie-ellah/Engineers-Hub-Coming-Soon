@@ -54,7 +54,7 @@ const Nav = () => {
               setShowModal(!showModal);
               setShowNav(!showNav);
             }}
-            className="btn border border-orange"
+            className="btn border border-orange hover:bg-orange hover:text-white"
           >
             Register
           </a>
@@ -63,14 +63,18 @@ const Nav = () => {
               setShowModal(!showModal);
               setShowNav(!showNav);
             }}
-            className="bg-orange btn border border-orange"
+            className="bg-orange btn border border-orange hover:bg-transparent"
           >
             Login
           </a>
         </div>
         {/* MOBILE LINKS */}
         <div className="hidden lg:flex">
-          <div className={`${showNav ? 'flex' : 'hidden'} lg:fixed lg:top-0 lg:flex-col lg:justify-center lg:items-center lg:h-full lg:bg-blue lg:w-full lg:left-0 lg:gap-10 md:gap-2.5 lg:text-center lg:z-10 lg:text-3xl md:text-xs`}>
+          <div
+            className={`${
+              showNav ? "flex" : "hidden"
+            } lg:fixed lg:top-0 lg:flex-col lg:justify-center lg:items-center lg:h-full lg:bg-blue lg:w-full lg:left-0 lg:gap-10 md:gap-2.5 lg:text-center lg:z-10 lg:text-3xl md:text-xs`}
+          >
             <div className="flex gap-10 lg:flex-col lg:gap-10 md:gap-2.5">
               <a
                 onClick={() => {

@@ -39,7 +39,7 @@ const Modal = ({setShowModal}) => {
             />
           </div>
           <input
-            className="bg-orange text-xs rounded-full text-center py-2 cursor-pointer rounded-l-none w-1/4 lg:w-4/12"
+            className="bg-orange text-xs rounded-full text-center py-2 cursor-pointer rounded-l-none w-1/4 lg:w-4/12 hover:bg-orange-80"
             type="submit"
             value="Subscribe"
           />

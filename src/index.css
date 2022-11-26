@@ -28,7 +28,19 @@
   }
 
   .social-media-icon {
-    @apply bg-orange rounded-lg p-2 hover:bg-navy-blue;
+    @apply bg-orange rounded-lg p-0.5 hover:bg-navy-blue;
+  }
+
+  .about-items{
+    @apply flex items-center gap-1 w-[49%] mb-3 lg:w-[100%]
+  }
+
+  .about-items-icon{
+    @apply bg-orange rounded-full p-1 text-xs
+  }
+
+  .about-items-text{
+    @apply text-dark-grey text-xs
   }
 }
 
