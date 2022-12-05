@@ -32,7 +32,7 @@
   }
 
   .about-items{
-    @apply flex items-center gap-1 w-[49%] mb-3 lg:w-[100%]
+    @apply flex items-center gap-1 w-[49%] mb-3 lg:w-[100%] lg:gap-3
   }
 
   .about-items-icon{
@@ -40,7 +40,7 @@
   }
 
   .about-items-text{
-    @apply text-dark-grey text-xs
+    @apply text-dark-grey text-xs lg:text-xl md:text-sm
   }
 }
 
