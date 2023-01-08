@@ -3,9 +3,6 @@ import landingSearch from '../assets/landing-search.png'
 import Envelope from '../assets/envelope.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
-// import lightSquare from '../assets/3.png'
-// import darkSquare from '../assets/2.png'
-// import landingImage from '../assets/1.png'
 
 const LandingSearch = () => {  
   return (
@@ -99,9 +96,6 @@ const LandingSearch = () => {
           src={landingSearch}
           alt=""
         />
-        {/* <img src={lightSquare} alt="" className='absolute top-10 left-10'/>
-        <img src={darkSquare} alt="" className='absolute top-5 left-5'/>
-        <img src={landingImage} alt="" className='absolute top-0 left-0'/> */}
       </div>
     </div>
   );
